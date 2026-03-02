@@ -1,0 +1,16 @@
+# Obsidian 核心忽略项
+.obsidian/workspace.json  # 工作区配置（不同电脑布局不同，同步会冲突）
+.obsidian/workspace-mobile.json
+.obsidian/plugins/  # 插件文件夹（建议每台电脑单独装插件，避免版本冲突）
+.obsidian/themes/  # 主题文件夹（可选，若想同步主题则删掉这行）
+.obsidian/cache/  # 缓存文件
+.obsidian/backlink-cache.json
+.obsidian/search-cache.json
+.obsidian/indexes/
+
+# 系统/编辑器无关文件
+.DS_Store  # Mac 系统文件
+Thumbs.db  # Windows 系统文件
+*.swp  # Vim 临时文件
+*.tmp
+.vscode/  # VSCode 配置（若不用 VSCode 编辑笔记可保留）
